@@ -1,5 +1,4 @@
 /* FONT-FAMILY */
-
 h1 {
   font-family: 'Cormorant', serif;
 }
@@ -13,9 +12,19 @@ li.list-group-item {
   padding: 18px 19px;
 }
 
+/* OVERWRITE BOOTSTRAP: NO PADDING LEFT OR RIGHT */
+.container-fluid {
+  padding: 0;
+}
+
 main, footer {
   max-width: 800px;
   margin: 0 auto;
+}
+
+figcaption {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1, li {
@@ -23,7 +32,7 @@ h1, li {
 }
 
 .info-big {
-  margin: 20px 0;
+  margin: 12px 0 35px 0;
 }
 
 .info-small {
@@ -44,17 +53,19 @@ progress {
   width: 100%;
   height: 2px;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: none;
   background-color: transparent;
-  color: #3CC0D5;
+  color: #69dbed;
   z-index: 1000;
-  &::-webkit-progress-bar {
-    background-color: #3CC0D5;
-  }
-  &::-webkit-progress-value,
-  &::-moz-progress-bar {
-    background-color: #3CC0D5;
-  }
+}
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+progress::-webkit-progress-value {
+  background-color: #69dbed;
+}
+progress::-moz-progress-bar {
+  background-color: #69dbed;
 }

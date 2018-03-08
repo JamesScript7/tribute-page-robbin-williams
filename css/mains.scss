@@ -1,0 +1,73 @@
+/* FONT-FAMILY */
+
+h1 {
+  font-family: 'Cormorant', serif;
+}
+
+figcaption, ul, p {
+  font-family: Montserrat, sans-serif;
+}
+
+/* OVERWRITE BOOTSTRAP: ADD MORE PADDING ON LI ELEMENTS */
+
+li.list-group-item {
+  padding: 18px 19px;
+}
+
+/* OVERWRITE BOOTSTRAP: NO PADDING LEFT OR RIGHT */
+
+.container-fluid {
+  padding: 0;
+}
+
+main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+figcaption {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1, li {
+  color: #303030;
+}
+
+.info-big {
+  margin: 12px 0 35px 0;
+}
+
+.info-small {
+  padding: 16px 18px 0px 18px;
+  margin: 20px 0;
+}
+
+/* CENTER-BLOCK DIDN'T WORK */
+
+.center-it {
+  text-align: center;
+}
+
+/* PROGRESS BAR CODE */
+// Progress bar value seems to be stuck on green!
+progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  color: #69dbed;
+  z-index: 1000;
+  &::-webkit-progress-bar {
+    background-color: transparent;
+  }
+  &::-webkit-progress-value, &::-moz-progress-bar {
+    background-color: #69dbed;
+  }
+}

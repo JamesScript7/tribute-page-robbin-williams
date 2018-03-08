@@ -1,5 +1,37 @@
+/* FONT-FAMILY */
+h1 {
+  font-family: 'Cormorant', serif;
+}
+
+figcaption, ul, p {
+  font-family: Montserrat, sans-serif;
+}
+
+/* OVERWRITE BOOTSTRAP: ADD MORE PADDING ON LI ELEMENTS */
+li.list-group-item {
+  padding: 18px 19px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, li {
+  color: #303030;
+}
+
+.info-big {
+  margin: 20px 0;
+}
+
+.info-small {
+  padding: 16px 18px 0px 18px;
+  margin: 20px 0;
+}
+
 /* CENTER-BLOCK DIDN'T WORK */
-.image-center {
+.center-it {
   text-align: center;
 }
 

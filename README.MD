@@ -1,10 +1,10 @@
 # Tribute Page for Robin Williams
 
-Basic HTML page for a Bonfire project
+A tribute page for a Bonfire project.
 
-**SKILLS:** HTML, SCSS, Mobile responsive, and Bootstrap.
+**SKILLS:** HTML, SCSS, Mobile responsiveness, and Bootstrap.
 
-[Link to the webpage!](http://robin-williams.surge.sh/)
+[Link to the webpage!](https://robin-williams.surge.sh/)
 
 *Screenshot:*
 

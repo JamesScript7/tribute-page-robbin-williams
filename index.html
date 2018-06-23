@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- META TAGS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- FACEBOOK TAGS -->
+    <!-- FACEBOOK META DATA -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://robin-williams.surge.sh/">
+    <meta property="og:url" content="https://robin-williams.surge.sh/">
     <meta property="og:image" content="http://cdn.abclocal.go.com/content/kgo/images/cms/253483_1280x720.jpg">
     <meta property="og:title" content="Robin Williams Tribute Page">
     <meta property="og:description" content="Throughout his career he recieved two Primetime Emmy Awards, six Golden Globe Awards, two Screen Actors Guild Awards, four Grammy Awards, and inducted as a Disney Legend in 2009.">
@@ -22,22 +21,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-
   <body>
     <progress value="0"></progress>
+    <!-- IMAGE -->
     <div class="container-fluid">
-      <div class="row-fluid center-it">
-        <header>
-          <figure class="figure">
-            <img src="http://cdn.abclocal.go.com/content/kgo/images/cms/253483_1280x720.jpg" class="figure-img img-fluid" alt="Robin Williams 1951-2014">
-            <figcaption class="figure-caption text-right"><small>Robin Williams - America's beloved Actor, Comedian, and Friend</small></figcaption>
-          </figure>
-        </header>
-      </div>
+      <header class="row-fluid center-it">
+        <figure id="img-div" class="figure">
+          <img id="image" src="http://cdn.abclocal.go.com/content/kgo/images/cms/253483_1280x720.jpg" class="figure-img img-fluid" alt="Robin Williams 1951-2014">
+          <figcaption id="img-caption" class="figure-caption text-right"><small id="title">Robin Williams - America's beloved Actor, Comedian, and Friend</small></figcaption>
+        </figure>
+      </header>
     </div>
-
+    <!-- MAIN -->
     <div class="container">
-      <main>
+      <main id="main">
         <h1 class="center-it info-big">
           A Timeline of Robin McLaurin Williams' Life:
         </h1>
@@ -93,23 +90,21 @@
           <li class="list-group-item">2014 - (Age 63) Death. Suicide by hanging.</li>
         </ul>
       </main>
-
+      <!-- FOOTER -->
       <footer>
-        <div class="border text-muted info-small">
+        <div id="tribute-info" class="border text-muted info-small">
           <p>
             Throughout his career he recieved two Primetime Emmy Awards, six Golden Globe Awards, two Screen Actors Guild Awards, four Grammy Awards, and inducted as a Disney Legend in 2009.
           </p>
           <p class="font-italic center-it">
-            For a more in-depth read, check out his life in his <a href="https://en.wikipedia.org/wiki/Robin_Williams" target="_blank">Wikipedia entry.</a>
+            For a more in-depth read, check out his life in his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Robin_Williams" target="_blank" rel="noopener">Wikipedia entry.</a>
           </p>
         </div>
-
-        <div>
-          <p class="text-info center-it">	&copy; 2018 <a href="http://james-kim.surge.sh/" target="_blank">James Kim</a></p>
-        </div>
+        <small>
+          <p class="text-info center-it">	&copy; 2018 <a href="https://james-kim.surge.sh/" target="_blank" rel="noopener">James Kim</a></p>
+        </small>
       </footer>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
